@@ -1,4 +1,24 @@
 body {
-    background-color: lightslategray; 
+    background-color: #ffffff;; 
     text-align: center; 
+}
+
+h1 {
+    color: #070944;
+}
+
+h2, h3, h4, ul {
+    text-align: left;
+    color: #070944;
+}
+
+p, div {
+    text-align: left; 
+    color: #788184;
+}
+
+footer {
+    font-size: 9pt; 
+    text-align: center;
+    color: #788184;
 }
