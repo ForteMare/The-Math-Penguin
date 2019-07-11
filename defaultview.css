@@ -22,3 +22,9 @@ footer {
     text-align: center;
     color: #788184;
 }
+
+.button {
+    color: black; 
+    background-color: lightblue;
+    width: 210px; 
+}
