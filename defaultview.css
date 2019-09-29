@@ -1,9 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-
 }
 
 h1 {
