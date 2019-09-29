@@ -1,13 +1,19 @@
+h1 {
+    text-align: center;
+    color: lightblue;
+}
+
+
 nav a:link,
 nav a:visited {
     font-size: 16pt;
     text-decoration: none;
     background-color: lightblue;
-    border: 1px solid lightblue;
+    border: 2px solid lightblue;
     color: black;
     width: 400px;
     text-align: left;
-    margin-bottom: 1px;
+    margin-right: 10px; 
 }
 
 nav a:hover,
