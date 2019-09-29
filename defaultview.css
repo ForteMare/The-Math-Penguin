@@ -1,7 +1,10 @@
 body {
+    margin: 0;
+    padding: 0; 
     background-color: azure;
-    font-size: 110%; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+
 }
 
 h1 {
@@ -12,14 +15,14 @@ h1 {
 
 nav a:link,
 nav a:visited {
-    font-size: 16pt;
     text-decoration: none;
     background-color: lightblue;
     border: 2px solid lightblue;
     color: black;
     width: 400px;
-    text-align: left;
+    text-align: center;
     margin-right: 10px; 
+    padding: 4px; 
 }
 
 nav a:hover,
