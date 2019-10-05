@@ -4,14 +4,51 @@
 <head>
     <meta charset="utf-8">
     <title>Testing Objects</title>
+    <style>
+        p {
+            background-color: lightcoral;
+            size: 90px;
+            border: 3px solid black;
+            padding: 60px;
+            margin: 90px;
+            float: left;
+        }
 
+        q {
+            background-color: seagreen;
+            size: 90px;
+            border: 3px solid black;
+            padding: 60px;
+            margin: 90px;
+            float: left;
+        }
+
+        @media (max-width: 1200px)  {
+            p, q {
+                background-color: brown;
+                padding: 20px; 
+                width: 80%;
+                
+            }
+        }
+
+        @media (max-width: 800px) {
+            p, q {
+                background-color: beige;
+                padding: 20px; 
+                width: 40%; 
+            }
+        }
+    </style>
 
 </head>
 
 <body>
-    <h1>Testing Objecs!</h1>
+    <h1>Testing Objects!</h1>
 
-    <p>X</p>
+    <p>1</p>
+
+    <q>2</q>
 </body>
 
 </html>
