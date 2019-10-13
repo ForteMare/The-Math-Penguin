@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Relative Positioning of Elements</title>
+    <title>Absolute Positioning of Elements</title>
 
     <style>
         * {
@@ -19,6 +19,7 @@
 
         div#container {
             background-color: lightgray;
+            position: relative;
         }
 
         p {
@@ -41,6 +42,9 @@
 
         #p3 {
             background-color: blue;
+            position: absolute;
+            top: 0; 
+            left: 0; 
         }
 
         #p4 {
@@ -50,7 +54,7 @@
 </head>
 
 <body>
-    <h1>Relative Positioning of Elements</h1>
+    <h1>Absolute Positioning of Elements</h1>
 
     <div id="container">
         <p id="p1">1</p>
