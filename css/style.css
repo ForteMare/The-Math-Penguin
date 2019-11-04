@@ -1,0 +1,25 @@
+body {
+    background: lightblue;
+    
+}
+
+h1 {
+    background: lightgray;
+}
+
+p {
+    background: lightgreen;
+}
+
+.bsbox {
+    background: lightpink;
+}
+
+.col {
+    background-color: aquamarine;
+    margin: 1px solid black;
+}
+
+.row {
+    background-color: brown;
+}
