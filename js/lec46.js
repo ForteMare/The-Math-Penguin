@@ -15,6 +15,8 @@ console.log(multiply);
 // Function property with toString
 console.log(multiply.toString);
 
+
+
 // Function factory
 function makeMultiplier(multiplier) {
   var myFunc = function(x) {
@@ -26,6 +28,7 @@ function makeMultiplier(multiplier) {
 
 var multiplyBy3 = makeMultiplier(3);
 console.log(multiplyBy3(10));
+
 var doubleAll = makeMultiplier(2);
 console.log(doubleAll(100));
 
@@ -36,5 +39,6 @@ function doOperationOn(x, operation) {
 
 var result = doOperationOn(5, multiplyBy3);
 console.log(result);
+
 result = doOperationOn(100, doubleAll);
 console.log(result); 
